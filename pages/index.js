@@ -14,7 +14,7 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Playfair+Display&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/imagenes/Silandra.png" />
       </Head>
       <div>
         <LandingPage/>
