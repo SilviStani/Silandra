@@ -2,11 +2,12 @@ import Footer from "@/Components/Footer";
 import Navbar from "@/Components/Navbar";
 import React from "react";
 import styles from "../styles/Inicio.module.css";
+import { data } from "@/data";
 
-const Inicio = () => {
+const Inicio = ({services}) => {
   return (
     <div className={styles.Container}>
-      <Navbar></Navbar>
+      <Navbar services={services}></Navbar>
       <div className={styles.ContainerIntro}>
         <div className={styles.Left}>
           <div className={styles.containerP}>
@@ -43,5 +44,12 @@ const Inicio = () => {
     </div>
   );
 };
+
+export const getStaticProps = async ()=> {
+  const services = data;
+  return {
+    props: {services}
+  }
+  }
 
 export default Inicio;
