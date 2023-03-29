@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../../styles/Products.module.css";
 import { data } from "@/data";
-import Image from "next/image";
 import Navbarr from "@/Components/NavBarr";
 import Footer from "@/Components/Footer";
 

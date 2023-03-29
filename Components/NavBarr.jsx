@@ -5,7 +5,7 @@ import styles from "../styles/Navbar.module.css";
 const Navbarr = () => {
   return (
     <div className={styles.Container}>
-      <Link href="/incio" passHref>
+      <Link href="/Inicio" passHref>
         <img
           src="/imagenes/Silandra.png"
           alt="Silandra Logo. link al inicio de la pagina"
