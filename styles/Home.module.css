@@ -9,7 +9,7 @@
   align-items: center;
 }
 .logoContainer{
-  height: 95%;
+  height: 100%;
   width: 70vw;
   display: flex;
   flex-direction: column;
@@ -17,15 +17,27 @@
   align-items: center;
 }
 .Logo{
-  height: 5%;
-  width: 100%;
+  margin-top: 5px;
+  border: 1px solid rgb(83, 83, 83);
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
   display: flex;
-  margin-left: 50px;
   cursor: pointer;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.h3{
+  font-family: 'Lato';
+  color: rgb(83, 83, 83);
+  font-size: 20px;
+  font-style: italic;
 }
 .img{
-  cursor: pointer;
   height: 100px;
+  border-radius: 100%;
 }
 .Container{
   height: 100vh;
@@ -80,12 +92,8 @@
     text-align: center;
     animation: LandingPage 3s linear forwards;
   }  
-  .Logo{
-    height: 20px;
-    width: 100%;
-    display: flex;
-    margin-left: 50px;
-    cursor: pointer;
+  .logoContainer{
+    margin-bottom: 20vh;
   }
 }
 

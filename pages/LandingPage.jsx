@@ -9,6 +9,7 @@ const LandingPage = () => {
         <div className={styled.Logo}>
           <Link href="/Inicio">
             <img className={styled.img} src="/imagenes/Silandra.png" alt="" />
+            <h3 className={styled.h3}>Inicio</h3>
           </Link>
         </div>
         <div className={styled.logoContainer}>
