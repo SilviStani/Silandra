@@ -40,7 +40,7 @@ const Inicio = ({services}) => {
           />
         </div>
       </div>
-      <Footer></Footer>
+      <Footer/>
     </div>
   );
 };

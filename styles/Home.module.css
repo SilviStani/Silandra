@@ -74,4 +74,18 @@
     animation: LandingPage 3s linear forwards;
   }  
 }
+@media screen and (max-width: 425px){
+  .LandingPage {
+    font-size: 30px;
+    text-align: center;
+    animation: LandingPage 3s linear forwards;
+  }  
+  .Logo{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+}
 

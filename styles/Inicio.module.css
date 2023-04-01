@@ -153,11 +153,28 @@
     }
     .p{
         font-size: 15px;
-    }.img1,
+    }
+    .img1,
     .img2,
     .img3 {
         border-radius: 10px;
         height: 180px;
+        transform: rotate(8DEG);
+        box-shadow: 3px 3px 3px 3px gray;
+        transition: all 1s ease-in-out;
+    }
+}
+@media screen and (max-width: 425px){
+    .p{
+        padding: 10px;
+        background-color:rgb(255, 255, 255, 0.7);
+        color: black;
+    }
+    .img1,
+    .img2,
+    .img3 {
+        border-radius: 10px;
+        height: 150px;
         transform: rotate(8DEG);
         box-shadow: 3px 3px 3px 3px gray;
         transition: all 1s ease-in-out;

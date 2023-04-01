@@ -7,7 +7,7 @@ const LandingPage = () => {
     <div className={styled.MainContainer}>
       <div className={styled.Container}>
         <div className={styled.Logo}>
-          <Link href='/Inicio'>
+          <Link href="/Inicio">
             <img className={styled.img} src="/imagenes/Silandra.png" alt="" />
           </Link>
         </div>

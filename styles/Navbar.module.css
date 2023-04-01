@@ -43,3 +43,17 @@
         align-items: center;
     }
 }
+@media screen and (max-width: 425px){
+    .iconos {
+        font-size: 12px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon {
+        height: 12px;
+        margin-right: 2px;
+    }
+}
