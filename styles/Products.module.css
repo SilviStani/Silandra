@@ -39,6 +39,11 @@
     height: 300px;
     width: fit-content;
 }
+@media screen and (max-width: 768px){
+    .rightCard{
+        height: 100%;
+    }
+}
  /* height: calc(100vh - 110px);
     width: 100%;
     display: flex;

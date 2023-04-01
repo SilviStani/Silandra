@@ -1,4 +1,4 @@
-.Container{
+.Container {
     height: 110px;
     width: 100%;
     background-color: white;
@@ -8,17 +8,38 @@
     justify-content: space-around;
     border-bottom: 2px gray dotted;
 }
-.img{
+
+.img {
     height: 105px;
     border-radius: 100%;
 }
-.icon{
+
+.icon {
     height: 25px;
     margin-right: 5px;
 }
-.iconos{
+
+.iconos {
     font-size: 18px;
- display: flex;
- justify-content: center;
- align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .img {
+        height: 80px;
+        border-radius: 100%;
+    }  
+    .icon {
+        height: 18px;
+        margin-right: 2px;
+    }
+    
+    .iconos {
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

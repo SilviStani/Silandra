@@ -77,3 +77,31 @@
     color: rgb(96, 96, 96);
     padding: 5px;
 }
+@media screen and (max-width: 768px){
+    .direction, .telephone, .social{
+        width: 33%;
+    }
+    .p, .socialLocalidad, .Localidad{
+        font-size: 15px;
+        text-align: center;
+    }
+    .telephone{
+        font-size: 15px;
+    }
+    .phoneContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .redSocial{
+        height: 20px;
+        transition: all 1s ease-in-out;
+    }
+    .Rights{
+        display: none;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+    }
+}
