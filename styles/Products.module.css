@@ -16,6 +16,30 @@
 
 .rightCard {
     height: calc(100vh - 110px);
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgb(245, 245, 245);
+}
+
+.ImagesDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: -moz-fit-content;
+    height: 310px;
+    width: 350px;
+}
+
+.img {
+    height: 300px;
+    width: fit-content;
+}
+ /* height: calc(100vh - 110px);
     width: 100%;
     display: flex;
     background-color: rgb(248, 248, 248);
@@ -23,20 +47,4 @@
     flex-direction: column;
     padding: 5px;
     justify-content: space-between;
-    align-items: center;
-}
-
-.ImagesDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    width: fit-content;
-    height: 310px;
-}
-
-.img {
-    height: 300px;
-    width: fit-content;
-}
+    align-items: center;*/

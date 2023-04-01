@@ -13,7 +13,7 @@ export const data = [
             {
                 id: 2,
                 desc: "",
-                img: "https://images.pexels.com/photos/313702/pexels-photo-313702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                img: "https://images.pexels.com/photos/3684519/pexels-photo-3684519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             },
             {
                 id: 3,
