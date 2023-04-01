@@ -16,6 +16,15 @@
     align-items: center;
 }
 
+.a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .Localidad {
     color: crimson;
 }
@@ -136,7 +145,8 @@
         padding: 8px;
         height: 130px;
     }
-        .p,
+
+    .p,
     .socialLocalidad,
     .Localidad {
         font-size: 13px;
