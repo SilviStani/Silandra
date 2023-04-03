@@ -13,6 +13,8 @@ const Product = ({ product }) => {
           {product.images.map((img) => (
             <div key={img.id} className={styles.ImagesDiv}>
               <img className={styles.img} src={img.img} alt={img.desc} />
+              <p style={{color: "gray"}}>{img.desc}</p>
+              <p style={{color: "gray"}}>{img.price}</p>
             </div>
           ))}
         </div>
