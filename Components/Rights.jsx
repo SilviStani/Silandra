@@ -2,11 +2,13 @@ import React from "react";
 import styles from "../styles/Footer.module.css";
 
 const Rights = () => {
+  const ano = new Date();
+  let fecha = ano.getFullYear();
   return (
     <div className={styles.Rights}>
       <div>
         <p className={styles.pRights}>
-          © 2023 - Silandra Alta Costura
+          © {fecha} - Silandra Alta Costura
           <br />
           Todos los Derechos Reservados
         </p>
